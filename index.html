@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aula Solidaria</title>
+
+    <!-- Hoja de estilo Bootstrap 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Fuentes-->
+    <link href="https://fonts.googleapis.com/css?family=Happy+Monkey&display=swap" rel="stylesheet"> 
+
+    <!-- Estilo adicional-->
+    <style>
+        .jumbo-bg-img {
+            background-image: url("https://img.freepik.com/vector-gratis/interior-biblioteca-sala-vacia-leer-libros-estantes-madera_33099-1722.jpg?size=626&ext=jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            
+        }
+        .HM {
+            font-family: 'Happy Monkey', cursive;
+        }
+    </style>
+</head>
+<body>
+<!-- Banner -->
+    <div class="jumbotron jumbo-bg-img jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4 w-50 HM text-warning border border-warning rounded bg-white text-center">Aula solidaria</h1>
+          <p class="lead text-white mt-3 ml-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, consectetur?</p>
+        </div>
+    </div>
+
+<!-- Cuerpo página-->
+    <div class="container">
+        <div class="row border-danger">
+            <div class="col-2 p-0 pt-3"> <!-- Columna 1: secciones por curso-->
+                <nav class="navbar navbar-light p-1 bg-light">
+                    <span class="navbar-brand mb-0 ml-3 h1">Cursos</span>
+                </nav>
+             <!-- Sección Primaria -->
+            <div class="row justify-content-end mr-1 mt-2">
+                <div class="btn-group  dropright ml-0">
+                    <button type="button" class="btn btn-light bg-white dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Primaria
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <button class="dropdown-item text-primary" type="button">1º, 2º, 3º y 4º de Primaria</button>
+                        <button class="dropdown-item text-danger" type="button">5º y 6º de Primaria</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Sección Secundaria -->
+            <div class="row justify-content-end mr-1">
+                <div class="btn-group dropright ml-0">
+                    <button type="button" class="btn btn-light bg-white dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Secundaria
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <button class="dropdown-item text-warning" type="button">1º y 2º de E.S.O.</button>
+                        <button class="dropdown-item text-success" type="button">3º y 4º de E.S.O.</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        <div class="col-4 pl-3 mt-3 pt-0"> <!-- Columna 2: noticias avisos etc-->
+                <nav class="navbar navbar-light bg-light p-1">
+                <span class="navbar-brand mb-0 ml-3 h1">Tablón de Anuncios</span>
+                </nav>
+                <div class="mt-3 ml-3 ">
+                    <!-- Editar éste texto e incluir anuncios-->
+                    <!-- incluir etiqueta <p> </p> para separar parrafos-->
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut magni similique neque assumenda excepturi, laborum voluptatibus accusamus quasi? Inventore blanditiis pariatur quam magnam sunt maxime, ut debitis provident ipsa voluptate.</p>
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorem autem maxime dolores soluta id consequatur doloribus! Neque, asperiores nobis esse quibusdam officiis architecto provident ipsam ducimus deleniti! Modi nesciunt tenetur, quidem non accusantium voluptate id officiis soluta? Quisquam quia officiis suscipit vitae aspernatur! Necessitatibus commodi voluptas a eos molestiae libero ut soluta velit temporibus exercitationem cupiditate quasi excepturi natus laboriosam, cumque ipsum numquam, quia sunt quaerat eligendi explicabo facere at. Voluptas adipisci enim perferendis consectetur, reprehenderit explicabo illo cupiditate? Facilis obcaecati harum inventore tempora expedita maxime, ratione corporis ad, mollitia nulla, vero ea rem. Dolore aliquam enim assumenda nostrum.</p>
+                </div>
+        </div>
+        <div class="col-6 p-3 pt-0 "> <!-- Columna 3: calendario-->
+                <nav class="navbar navbar-light bg-light p-1">
+                    <span class="navbar-brand ml-3 mb-0 h1">Calendario<span>
+                </nav>
+                <div class="row mr-1 mt-3 justify-content-end">
+                <iframe  src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Atlantic%2FCanary&amp;src=YW50aGVtLnZAZ21haWwuY29t&amp;src=aDJobHRwbjFvNWdsaHZyY3ZobXN1NWY0MW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=bG8xZjJxYmQ0Zm5tdXQ2YWE5aWxqcXZlb2NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=MGRzcG1xa2ZnMG9qYWY5dW1haXA5MmRzOXNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%237986CB&amp;color=%23E4C441&amp;color=%2333B679&amp;color=%23aa1300&amp;color=%2300246d&amp;showTitle=0&amp;showNav=1&amp;showDate=1&amp;showPrint=1&amp;showTabs=1&amp;showCalendars=0&amp;mode=WEEK" style="border-width:0" width="500" height="400" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
+        </div>
+  </div>
+  <div class="conteiner fluid mt-4">
+    <nav class="navbar navbar-light bg-dark text-white">
+        <div class="conteiner">
+            <div class="row">
+                <div class="col-6 w-100">
+                </div>
+                <div class="col-6 w-100">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus ex recusandae sed voluptas cum! Non, tenetur. At recusandae unde quia ducimus, suscipit debitis. Quasi temporibus blanditiis, architecto et tempora quidem.
+                </div>
+            </div>
+        </div>    
+    </nav>
+  </div>
+<!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
